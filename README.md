@@ -92,7 +92,7 @@ Saídas esperadas permanecem intactas.
   O valor constante de treino torna-se zero; novos valores preservam sua
   diferença em relação à referência. Os parâmetros reais continuam armazenados.
 
-## Exemplos para apresentar ao professor
+## Exemplos 
 
 Os dois CSVs estão em `data/`. Na interface, use **seed 42 na criação,
 na divisão e no treinamento**, com divisão **70/15/15** em ambos os casos
