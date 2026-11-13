@@ -1,0 +1,20 @@
+/* Apenas superfícies e espaçamento; widgets continuam nativos e responsivos. */
+[data-testid="stMainBlockContainer"] { max-width: 1650px; padding-top: 1.25rem; }
+[data-testid="stVerticalBlockBorderWrapper"] > div,
+[data-testid="stMetric"] { border-radius: 14px; }
+[data-testid="stVerticalBlockBorderWrapper"] > div { background: #172033; }
+[data-testid="stMetric"] { background: #172033; }
+[data-testid="stMetricValue"] { font-weight: 650; letter-spacing: -0.035em; white-space: normal; overflow-wrap: anywhere; }
+[data-testid="stSidebar"] { border-right: 1px solid #243047; }
+[data-testid="stForm"] { border-color: #243047; border-radius: 14px; }
+[data-testid="stPlotlyChart"] { border-radius: 14px; overflow: hidden; }
+@media (max-width: 640px) {
+  [data-testid="stMainBlockContainer"] { padding: 1rem; }
+}
+
+[data-testid="stSidebar"] [role="radiogroup"] label {
+  padding: 0.45rem 0.65rem; border-radius: 8px;
+}
+[data-testid="stSidebar"] [role="radiogroup"] label:has(input:checked) {
+  background: rgba(139, 92, 246, 0.16); color: #F8FAFC;
+}
